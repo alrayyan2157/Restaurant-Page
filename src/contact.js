@@ -6,8 +6,7 @@ export function loadContact() {
     headline.textContent = "Contact Us";
 
     const info = document.createElement("p");
-    info.textContent = "📞 Phone: (555) 123-4567 | ✉️ Email: dine@cozyspoon.com";
-
+    info.textContent = "📞 Phone: (555) 123-4567 | ✉️ Email: dine@restaurant.com";
     container.appendChild(headline);
     container.appendChild(info);
     return container;
